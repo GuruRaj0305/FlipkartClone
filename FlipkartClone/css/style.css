@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+*{
+margin: 0;
+padding: 0;
+}
+
+
+.logo{
+    margin: 13px;
+}
+
+
+.header{
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+    background-color:#2874f0;
+    height: 55px;
+    font-family: 'Arvo', serif;
+
+}
+.box{
+    height: 55px;
+}
+
+.headerc{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+} 
+.search{
+    background: white;
+    width: 100%;
+    max-width: 450px;
+    height: 17px;
+    align-items: center;
+    
+  
+    display: flex;
+    padding: 10px;
+}
+.mediaa{
+    display: flex;
+}
+@media (max-width: 450px){
+    .header{
+        height: 145px;
+    }
+    .box{
+        height: 145px;;
+    }
+}
+@media (max-width: 450px){
+    .headerc{
+        display: block;
+        margin: 10px;
+    }
+}
+@media (max-width: 450px){
+    .search{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.search input{
+    background-color: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+}
+.search button img{
+    width: 20px;
+
+}
+.search button{
+    border: 0;
+    cursor: pointer;
+    background: transparent;
+    
+}
+.search2{
+    margin: 0px 40px;
+    width: 60px;
+    color: #2874f0;
+
+}
+.sss{
+    margin: 0px 40px;
+}
+
+
+main{
+    background-color: gainsboro;
+}
+.main1{
+    height: 135px;
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+}
+.main1 ul{
+    display: flex;
+
+}
+.imgc{
+    height: 90px;
+   
+}
+.main1 ul li div{
+    display: flexbox;
+    margin:0px 25px;
+    align-items: center;
+    justify-content: center;
+
+    /* width: 30px;
+    height: 100%; */
+}
+.main1 ul li div a{
+  color: black;
+}
+
+
+@keyframes anime2 {
+        form{
+            transform: translateX(100vw);
+        }
+        to{
+            transform: translateX(0vw);
+        }
+    
+}
+@keyframes anime3 {
+    form{
+        transform: translateX(100vw);
+    }
+    to{
+        transform: translateX(-98.5vw);
+    }
+}
+.offer {
+    /* height: 240px; */
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    
+    
+}
+@media (max-width: 450px){
+    .mediaa{
+        display: flex;
+        margin: 10px;
+    }
+    
+    
+}
+
+.div2img2{
+    margin: 9px;
+    height: 220px;
+    transform: translateX(1346px);
+}
+.div2img3{
+    margin: 9px;
+    height: 220px;
+    transform: translate(1340px);
+    animation: anime2 500ms forwards ;
+    animation-delay: 3s;
+}
+
+.div2img4{
+    margin: 9px;
+    height: 220px;
+    transform: translate(1340px);
+ 
+    animation: anime3 1000ms forwards ;
+    animation-delay: 6s;
+}
+@media (max-width: 450px){
+ 
+ }
+    @media (max-width: 450px){
+    
+    .offer{
+        height: 20px;
+    }
+    .offer a{
+        display: none;
+    }
+    }
+
+
+.div3{
+    height: 400px;
+    background-color: white;
+    margin: 0px 10px;
+}
+.div3 h2{
+    margin:0px 30px;
+}
+.div3-1{
+    height: 300px;
+    width: 250px;
+    border: 2px solid rgba(128, 128, 128, 0.411);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 15px;
+
+ 
+}
+.div3-1 p{
+    color: black;
+    padding: 5px;
+ 
+
+}
+.div3-1 a p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div3-1-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+
+}
+@media (max-width: 450px){
+    .div3-1{
+        width: 250px;
+        border: none;
+    
+    }
+    .div3-1 a img{
+        height: 160px;
+    }
+    .div3-1-1
+    {
+        overflow: hidden;
+    }
+    .asd{
+        width: 150px;
+    }
+}
+
+.subsub a p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+}
+.subsub a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.subsub{
+    border: 2px solid rgba(128, 128, 128, 0.425);
+    height: 280px;
+    width: 200px ;
+    margin: 10px 5px 5px 10px;
+}
+
+@media (max-width: 450px){
+    .subsub{
+    
+        width: 180px;
+    }
+    .subsub a img{
+        height: 150px;
+    }
+   .subsub2{
+    display: none;
+   }
+}
+.subsub a{
+    color: black;
+}
+.row1{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main2{
+    display: flex;
+    flex-direction: row;
+}
+.torow{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+.sub1{
+    background-color: white;
+    margin: 10px;
+    width: 500px;
+}
+.subsub2 img{
+    width: 800px;
+    height: 670px;
+    border: 2px solid rgba(128, 128, 128, 0.404);
+}
+
+
+
+
+
+.last{
+    background-color: white;
+    color: rgb(77, 77, 77);
+    margin: 10px 0px 0px 0px;
+    
+}
+.last p{
+    margin: 10px;
+    padding:10px;  
+}
+.last p a{
+    color: rgb(78, 72, 72);
+    border-left: 1px solid rgba(105, 93, 93, 0.521);
+    margin: 2px;
+    padding: 2px;
+    font-size: small;
+    
+}
+.last2{
+    background-color: white;
+}
+.last2 p{
+    font-size: small;
+    color: rgb(78, 72, 72);
+    margin: 10px;
+    padding:10px;
+}
+
+
+.beside{
+    display: inline-block;
+    margin:  10px;
+    padding: 10px;   
+}
+
+.side{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: start;
+    align-content: center;
+    height: 250px  
+}
+
+a{  
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    height: 26px;
+}
+footer{
+
+    height: 50vh;
+    background-color: #172337;
+    color: white;
+    font-family: 'Arvo', serif;
+}
+
+ul{
+    list-style: none;   
+}
+.position{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.tit{
+    padding:15px 0px;
+    color: gray;
+}
+.sec1f{
+font-size: 11px;
+}
+.dev{
+    background-color: #172337;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.check{
+    border: 1px solid gray; height: 160px;
+}
+
+
+
+@media (max-width: 450px){
+    .side{
+        height: 550px;
+        background-color: #172337;
+    }
+    .position{
+        background-color: #172337;
+    }
+}
